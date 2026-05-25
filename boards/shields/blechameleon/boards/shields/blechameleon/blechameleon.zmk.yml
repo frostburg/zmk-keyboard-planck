@@ -2,6 +2,5 @@ file_format: "1"
 id: blechameleon
 name: blechameleon
 type: shield
-url: https://github.com/foostan/crkbd/
 features:
   - keys
