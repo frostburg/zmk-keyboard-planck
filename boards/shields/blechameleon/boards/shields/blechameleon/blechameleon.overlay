@@ -2,6 +2,13 @@
 #include "blechameleon-layouts.dtsi"
 
 / {
+    chosen {
+        zmk,physical-layout = &physical_layout0;
+        // Other chosen items
+    };
+};
+
+/ {
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
